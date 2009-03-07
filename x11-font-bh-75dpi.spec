@@ -1,6 +1,6 @@
 Name: x11-font-bh-75dpi
 Version: 1.0.0
-Release: %mkrel 6
+Release: %mkrel 7
 Summary: Xorg X11 font bh-75dpi
 Group: Development/X11
 URL: http://xorg.freedesktop.org
