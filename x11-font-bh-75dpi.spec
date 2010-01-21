@@ -5,7 +5,9 @@ Summary: Xorg X11 font bh-75dpi
 Group: Development/X11
 URL: http://xorg.freedesktop.org
 Source: http://xorg.freedesktop.org/releases/individual/font/font-bh-75dpi-%{version}.tar.bz2
-License: CHECK
+# We may modify the software, but then we won't be able to use
+# "OPEN LOOK" or "Lucida" trademarks. See #38627
+License: Lucida
 BuildRoot: %{_tmppath}/%{name}-root
 BuildArch: noarch
 BuildRequires: x11-font-util >= 1.0.0
