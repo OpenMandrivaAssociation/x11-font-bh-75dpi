@@ -10,6 +10,7 @@ Source: http://xorg.freedesktop.org/releases/individual/font/font-bh-75dpi-%{ver
 License: Lucida
 BuildRoot: %{_tmppath}/%{name}-root
 BuildArch: noarch
+BuildRequires: fontconfig
 BuildRequires: x11-font-util >= 1.0.0
 BuildRequires: x11-util-macros >= 1.0.1
 Conflicts: xorg-x11-75dpi-fonts <= 6.9.0
